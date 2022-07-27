@@ -15,7 +15,7 @@ public class Arraylist {
 		int count =1;
 		try {
 		while(true) {
-			System.out.println("Total Entry of Student"+ count);
+			System.out.println("Total Entry of Student : "+ (count++));
 			
 			System.out.println("Enter the Name: ");
 			String name = sc.next();
